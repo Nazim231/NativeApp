@@ -5,7 +5,7 @@ import { Link } from 'expo-router';
 const Index = () => {
   return (
     <View className="flex-1 justify-center items-center">
-      <Text className="text-4xl">Aora!</Text>
+      <Text className="text-4xl font-pbold">Aora!</Text>
       <Link href={'/profile'} className="text-blue-600">
         Go to profile
       </Link>
