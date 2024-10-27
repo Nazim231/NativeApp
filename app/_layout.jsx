@@ -1,10 +1,8 @@
-import { StyleSheet } from 'react-native';
 import { Slot } from 'expo-router';
+import '../global.css';
 
 const RootLayout = () => {
   return <Slot />;
 };
 
 export default RootLayout;
-
-const styles = StyleSheet.create({});
